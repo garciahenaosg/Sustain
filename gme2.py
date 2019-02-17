@@ -25,8 +25,7 @@ def displayIntro():
 displayIntro()
 
 total_carbon = 0
-
-
+print("test")
 def wakeup():
     path = ""
     while path != "get up" and path != "get out of bed" : # input validation
