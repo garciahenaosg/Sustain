@@ -79,6 +79,10 @@ def make_decision():
     if bathroom_light == "on" or bedroom_light_bulb == "on":
         print("The light is on.")
     print("Total Carbon: {0}".format(total_carbon))
+    if total_carbon >.1:
+        print("You die")
+        current_room = "end game"
+
 
 
 def mom_cloth():
